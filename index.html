@@ -16,15 +16,17 @@
         <p>
             De color picker is een RGB-kleursysteem waarmee we een kleur kunnen bepalen aan de hand van de waarden van
             de drie primaire kleuren: rood, groen en blauw. Dit kennen jullie vast wel van HTML & CSS.<br>
-            Elk van de primaire kleuren krijgt een waarde tussen van minimaal 0 en maximaal 255. 
+            Elk van de primaire kleuren krijgt een waarde tussen van minimaal 0 en maximaal 255.
             Dus niet lager dan 0 en niet hoger dan 255!
             <br />
             Zie hieronder een voorbeeld:
         </p>
-        R <input type="range" class="red" name="red" min="0" max="255" value="125"> <span class="r-value">125</span>
+        R <input type="range" class="red" name="red" min="0" max="255" value="0"> <span class="r-value">0</span>
         <br>
-        G <input type="range" min="0" max="10" value="6"> <span>6</span> <br>
-        B <input type="range" min="0" max="10" value="1"> <span>1</span> <br>
+        G <input type="range" class="green" name="green" min="0" max="255" value="0"> <span class="g-value">0</span> 
+        <br>
+        B <input type="range" class="blue" name="blue" min="0" max="255" value="0"> <span class="b-value">0</span> 
+        <br>
         <p class="result">De circel hieronder is (bij de start) rood van kleur.</p>
         <div class="circle">
         </div>
@@ -51,5 +53,7 @@
         <p><strong>Let op! </strong>Je mag geen ingebouwde colorpicker gebruiken zoals &ltinput type="color"&gt!</p>
         <p><strong>Let the hacking begin!</strong></p>
     </div>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
